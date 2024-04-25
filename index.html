@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div id="container">
+        <h1>light mode</h1>
+        <div class="trail">
+          <div class="indicator">
+          </div>
+        </div>
+      </div>
+      <button title="Sound" onclick="toggleSound()" class="ph ph-speaker-high"></button>
+      <!-- <button title="Sound" onclick="toggleSound()" class="ph ph-speaker-slash hide"></button> -->
+
+
+
+    <!-- audio -->
+    <audio src="./assets/SoundEfect.mp4" ></audio>
+    <!-- music -->
+    <audio id="musicLofi" src="./assets/Dreaming.mp3" autoplay loop></audio>
+    <!-- videos -->
+    <video id="darkModeVideo" src="./assets/light-mode.mp4" autoplay loop></video>
+  
+
+  </body>
+  <script src="./script.js"></script>
+</html>

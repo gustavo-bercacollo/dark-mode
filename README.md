@@ -2,7 +2,7 @@
 
 [Technologies](#technologies) | [Project](#project) | [License](#license)
 
-![FortuneCookieExample1](./assets/tumb.pngcl)
+![darkModeTumb](/assets/tumb.png)
 
 ## Technologies
 This project was developed with the following technologies:
